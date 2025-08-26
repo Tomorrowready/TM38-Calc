@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tomorrowready/TM38-Calc.git/static/css/main.f4f4abb5.css",
+    "main.js": "/Tomorrowready/TM38-Calc.git/static/js/main.ad98bfaf.js",
+    "index.html": "/Tomorrowready/TM38-Calc.git/index.html",
+    "main.f4f4abb5.css.map": "/Tomorrowready/TM38-Calc.git/static/css/main.f4f4abb5.css.map",
+    "main.ad98bfaf.js.map": "/Tomorrowready/TM38-Calc.git/static/js/main.ad98bfaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f4abb5.css",
+    "static/js/main.ad98bfaf.js"
+  ]
+}
