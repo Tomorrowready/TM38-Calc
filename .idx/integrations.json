@@ -1,5 +1,6 @@
 {
   "firebase_hosting": {
     "deploymentHostingUrl": "https://tm38-calc.web.app"
-  }
+  },
+  "cloud_run_deploy": {}
 }
