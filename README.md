@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+Disclaimer
+This model is intended for professional engineers, experienced in the design of Concrete structures, or for persons working under  the direct supervision thereof.  Whilst the model is presented in good faith, ConcreteNZ disclaim any and all responsibility for its application in practise.  Neither shall it be liable in anyway for any matters arising from the use of the model by any party.  Updates and/or changes in the model will be communicated to registered users.  However it remains the responsibility of the user to check with ConcreteNZ (https://concretenz.org.nz/) to ensure they have the latest version.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Background
+The background theory for this excel Application is covered in the ConcreteNZ publication " Concrete Ground Floors & Pavements for Commercial & Industrial Use Part 2- Specific Design."  It is recommended that users of this programme read this document which is obtainable form ConcreteNZ (https://concretenz.org.nz/) .  An important assumption to note is that the Application assumes tensile stresses due to restrained shrinkage are negligible. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Loads
+This Application has been designed to accommodate gravity loads which are typically present on industrial floor slabs.  Spread sheets are provided for load layouts comprising of- single rows of warehouse racks, rack which are placed back to back,  and forklift wheel loads.  Other load layouts can be accommodated by manual combination of the stresses associated with individual load points. A Application is provided for single point loads to assist in this. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright 2025 - ConcreteNZ 
+Application built by Tomorrowready Limited (tomorrowready.com)
