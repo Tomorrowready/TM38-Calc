@@ -2,7 +2,7 @@
   "name": "concrete-calculator",
   "version": "1.0.0",
   "description": "Concrete Ground Floor Point Load Calculator based on TM38 CCANZ Guidelines",
-  "homepage": ".",
+  "homepage": "https://github.com/Tomorrowready/TM38-Calc.git",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -20,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.12",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   }
