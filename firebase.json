@@ -1,13 +1,14 @@
 {
   "hosting": {
     "source": "build",
+    "frameworksBackend": {
+      "framework": "react",
+      "region": "us-central1"
+    },
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "frameworksBackend": {
-      "region": "us-central1"
-    }
+    ]
   }
 }
