@@ -1,52 +1,57 @@
 {
-  "name": "concrete-calculator",
-  "version": "1.0.0",
-  "description": "Concrete Ground Floor Point Load Calculator based on TM38 CCANZ Guidelines",
-  "homepage": "https://github.com/Tomorrowready/TM38-Calc.git",
+  "name": "tm38-calculator",
   "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": ".",
+  "main": "electron.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "electron": "electron .",
+    "dist": "npm run build && electron-builder"
+  },
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.8.0",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "firebase": "^12.1.0",
-    "lucide-react": "^0.541.0",
+    "lucide-react": "^0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "recharts": "^3.1.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
     "@tailwindcss/postcss": "^4.1.12",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.21",
-    "gh-pages": "^6.3.0",
+    "electron": "^37.4.0",
+    "electron-builder": "^26.0.12",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17"
+    "puppeteer": "^24.17.1",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.2"
+  }
+,
+  "build": {
+    "appId": "com.tomorrowready.tm38-calculator",
+    "productName": "TM38 Calculator",
+    "files": [
+      "dist/**/*",
+      "electron.js",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "assets",
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 }
